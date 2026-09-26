@@ -41,8 +41,6 @@ Ejemplo: npm run start DELETE products/7
 
 */
 
-
-
 console.log("Inicio del programa");
 
 console.log(process.argv);
@@ -133,7 +131,7 @@ switch (args[0]) {
         }
         break;
     default:
-        console.log("Comando incorrecto. Por favor, utiliza GET, POST o DELETE seguido de los parámetros correspondientes.");
+        console.log("Comando incorrecto. Por favor, utiliza GET, POST o DELETE seguido de los parámetros correspondientes. Gracias");
         break;
 }   
 
